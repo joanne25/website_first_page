@@ -1,0 +1,403 @@
+/* ================================== MEDIA QUERIES============================ */
+
+
+@media only screen and (max-width: 1900px){
+   
+.portfolio {
+    width: 100%; 
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+} 
+
+.portfolio img{
+    width:250px; 
+    height:167px;
+}
+
+.portfolio li {
+    float:left; 
+    position:relative; 
+    display:inline-block; 
+    width:250px; 
+    height:167px;
+    margin:10px; 
+    padding:10px; 
+    text-align: center;
+
+    }
+
+
+.portfolio li div {
+    position:absolute;
+    height:0; 
+    width:85%;
+}
+
+
+}
+
+
+/* ================================== 1000 px ================================ */
+
+@media only screen and (max-width: 1000px){
+   
+body { 
+        font-size: 15px;
+        margin: 0 auto;    
+}
+
+/* ======================= Rozwijane Menu ===================== */ 
+    
+.header1 {
+  float: left;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+ 
+}   
+    
+    
+.header1 a {
+    font-size: 20px;
+    top: -25px;
+    right: 15px;  
+}     
+    
+.nav ul {
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+nav {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+nav.active {
+    max-height: 50em;
+}
+
+
+.nav li a {
+  display: block;
+  padding: 5px;
+}
+
+.nav li a:hover {
+  background: #888;
+}
+
+
+.b {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 0px;
+}
+
+.b:before,
+.b:after {
+  content: "";
+  position: absolute; 
+  display: inline-block;
+  width: 33px;
+  height: 15px;
+ 
+}
+
+.b:after {
+  height: 5px;
+  background: #000;
+  border-radius: 3px;
+  box-shadow: 0 10px 0 0 #000, 0 20px 0 0 #000;
+}    
+    
+    
+.main-header{
+    position:fixed;
+    box-sizing:border-box;
+    width:100%;
+    background-color: rgba(225,225,225,0.9);
+    font-weight: 200;
+    z-index: 2;
+    height: auto;
+    padding:2% 5%!important;
+}
+
+
+.main-header .call{
+        display:none;
+    }
+    
+.main-header .page-nav ul li a {
+        display: none;
+}
+    
+
+
+/* ==================== 1 STRONA ======================= */
+    
+.jumbotron{
+        min-height:400px;
+}
+    
+.jumbotron h1{
+    font-size: 50px;
+}
+.jumbotron p{
+    font-size:30px;
+}
+    
+    
+/* ========================= O MNIE ======================== */
+    
+.about{
+    width: 80%;      
+}
+  
+.about-text{
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count:1;
+    width:100%;
+    margin-top: -5px;
+    padding:1%;
+    font-size:25px;
+    float:left;
+}
+    
+.about-text img{
+    width:50%;
+    height:auto;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+/* ============ UMIEJĘTNOŚCI ============= */
+
+    
+.skills{
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 20px;
+     margin: auto;    
+}
+    
+.skills p{
+    font-size: 20px;
+}
+    
+
+  
+/* ====================== PORTFOLIO ======================= */
+    
+.portfolio_main{
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 15px;
+    margin:auto;
+}
+    
+.portfolio{
+    display: none;
+    width: auto;
+}    
+    
+.portfolio2{
+    display: inline-block;
+}    
+    
+  
+.portfolio2 div {
+  display: inline-block; 
+  position:relative; 
+  width:60%; 
+  height:auto;
+  margin:10px; 
+  padding:10px; 
+  background:#fff; 
+  box-shadow:0 0 5px rgba(0,0,0,.35);
+}    
+    
+.portfolio2 div p{
+    font-weight: 800; 
+    padding: 2px;
+    margin: 0;
+}
+    
+
+/* ============ KONTAKT ============= */    
+    
+.contact{
+    width: 80%;
+    padding:0;
+    margin:auto;    
+}
+
+.contact1 div{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+    
+.contact1 li{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding:0;
+}
+   
+.contact1 p{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 0;
+    padding:0;
+}
+}
+
+
+
+/* ==================================== PHONE ================================== */
+
+
+@media only screen and (max-width: 430px){
+   
+body { 
+        font-size: 13px;
+        margin: 0 auto;    
+}
+
+h2,h3,h4,h5{
+    width:100%;
+    border-bottom:2px solid gray;
+    margin:0 0px 10px 0px;
+    padding-bottom:5px;
+    font-size:23px;
+}
+
+
+/* ========================== 1 STRONA ======================== */
+    
+.jumbotron{
+        min-height:400px;
+}
+    
+.jumbotron h1{
+    font-size: 50px;
+    
+}
+.jumbotron p{
+    font-size:30px;
+}
+    
+    
+/* ============ O MNIE ========= */
+    
+.about{
+    width: 80%;     
+}
+  
+.about-text{
+    font-size: 1em;
+    width:100%;
+    margin-top: -5px;
+    padding:1%;
+    font-size:25px;
+    float:left;
+}
+    
+.about-text img{
+    display: none;
+}
+    
+ .cv span{
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-left:0px;
+    margin-top: -100px;
+    margin-bottom: 40px;  
+} 
+
+/* ============ UMIEJĘTNOŚCI ============= */
+   
+.skills{
+        display:flex;
+        flex-wrap: wrap;
+        width: 80%;
+        padding-top: 20px;
+        margin: auto;    
+}
+    
+.skills p{
+        font-size: 20px;
+}
+    
+
+/* ================= KONTAKT =================== */
+    
+
+.contact{
+    width: 80%
+    padding:0;
+    margin:auto;    
+}
+
+.contact1 div{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+    
+.contact1 li{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding:0;
+    text-align: center;
+}
+   
+.contact1 p{
+    font-size: 0.6em;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 0;
+    padding:0;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+    body { 
+        font-size: 21px; 
+    }
+    
+        
+@media only screen and (min-width:980px){
+    .about-text{
+        font-size:20px;
+    }
+}
+  
+@media only screen and (min-width:1600px){
+    .about-text{
+        font-size:26px;
+    }
+}
+

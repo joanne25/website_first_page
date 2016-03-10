@@ -1,0 +1,449 @@
+/* ===================== OGÓLNE =================== */
+
+html{
+    font-size:100%;
+    font-family: 'Average Sans', sans-serif;
+    margin:auto;
+}
+
+body{
+    margin:0;
+    font-size:16px;
+    background-color: #fff;
+}
+
+main, article {
+    overflow:hidden;
+}
+
+
+p{
+ font-family: 'Open Sans', sans-serif;   
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+h2,h3,h4,h5{
+    width:100%;
+    border-bottom:2px solid gray;
+    margin:0 0px 5px 0px;
+    padding-bottom:10px;
+    font-size:28px;
+}
+
+
+/* ====================== NAGŁÓWEK ======================== */
+
+.header1{
+    display: none;
+}
+
+
+
+.main-header p{
+    margin: 0;
+    padding-left:15px;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 24px;
+}
+    
+.main-header .page-nav{
+    display:inline;
+    width:300px;
+    margin:0!important;
+}
+
+
+.main-header{
+    position:absolute;
+    box-sizing:border-box;
+    width:100%;
+    background-color: rgba(225,225,225,0.8);
+    font-weight: 200;
+    z-index: 2;
+}
+
+.main-header{
+    padding:1% 5%!important;
+    position:fixed;
+}
+
+
+.main-header .call{
+    display:flex;
+    justify-content:flex-end;
+    width:330px;
+    float:right;
+    margin:0!important;
+    position:absolute;
+    right:50px;
+}
+
+.main-header .language{
+   margin-left: 20px;
+    margin-top: 5px;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.main-header .language a:hover{
+   text-decoration: underline;
+}
+
+
+.main-header .page-nav ul{
+    display:inline;
+    width:300px;
+    margin:0;
+}
+
+
+ .main-header .page-nav ul li{
+    display:inline;
+    padding-right:15px;
+    border:none;
+    font-size:19px;
+    font-weight:bold;
+}
+   
+.main-header .page-nav a{
+    font-size: 22px;  
+}
+
+.main-header .page-nav a:hover{
+    font-size: 22px;
+    text-decoration: underline;
+   
+}
+
+
+/* =================== 1 STRONA ================== */
+
+
+.jumbotron{
+    padding-top:180px;
+    padding-bottom: 70px;
+    min-height:715px;
+    text-align:center;   
+}
+
+
+.jumbotron h1{
+    padding-top: 130px;
+}
+
+.jumbotron h1, .jumbotron p{
+    margin:-2px;   
+}
+
+.jumbotron p{
+    font-family: 'Average Sans', sans-serif;
+    font-size:50px;
+    font-weight:100;
+    color:rgba(255,255,255, 1);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    margin-top: 20px;
+}
+
+.jumbotron h1{
+    font-size:80px;
+    font-weight:200;
+    color:rgba(255,255,255, 1);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    margin-top: 20px;
+}
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+    opacity: 0,4;   
+ 
+}
+
+
+/* ======================= O MNIE =========================== */
+
+.about{
+    padding:2% 5% 0% 5%;
+    width: 70%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;    
+}
+
+.about-text{
+     -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    width:100%;
+    font-size:18px;
+    margin-top: 0px;
+    text-align: justify;
+    float:left;
+    padding:1%;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+.about-text p{
+    font-size:18px;
+    color: black;
+    margin: 0;
+}
+
+.about-text img{
+    width:65%;
+    height:auto;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+
+.cv span{
+    font-weight: 600;
+    margin-left:180px;
+    margin-top: -100px;
+}
+
+.cv a:hover{
+    text-decoration: underline;
+}
+
+
+/* ================================= UMIEJĘTNOŚCI =================================== */
+
+
+.skills{
+    padding:0 5% 2% 5%;
+    clear:both;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.skills p{
+    margin-left: 10px;
+    color: black;
+}
+
+
+.learning1{
+    width:100%;
+    margin:0;
+    text-align: center;
+}
+
+.learning1 div {
+    display: inline-block; 
+    position:relative; 
+    width:90px; 
+    height:90px;
+    margin:6px; 
+    padding:10px; 
+    background:#fff; 
+    box-shadow:0 0 5px rgba(0,0,0,.35);
+}
+
+
+.learning1 img{
+    width:90px; 
+    height:90px;
+    display: inline;
+    margin:auto;
+}
+
+
+
+/* ========================== PORTFOLIO ======================================= */
+
+.portfolio_main{
+    padding:0 5% 2% 5%;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.portfolio {
+    width: 1100px; 
+    margin: 0 auto;
+    
+} 
+
+.portfolio img{
+    width:300px; 
+    height:200px;
+}
+
+.portfolio li {
+    float:left; 
+    position:relative; 
+    display:inline-block; 
+    width:300px; 
+    height:200px;
+    margin:10px; 
+    padding:10px; 
+    background:#fff; 
+    -webkit-box-shadow:0 0 5px rgba(0,0,0,.35);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.35);
+    box-shadow:0 0 5px rgba(0,0,0,.35);}
+
+.portfolio li div {
+    position:absolute;
+    height:0; 
+    width:280px;
+    background:rgba(0,0,0,.45); 
+    overflow:hidden;
+    bottom:10px;
+    left:10px; 
+    padding: 0 10px;
+    -webkit-transition:height 1s;
+    -moz-transition:height 1s;
+    -o-transition:height 1s;
+    -ms-transition:height 1s; 
+    transition:height 1s;
+    color:#fff;
+    line-height:30px;
+    font-size:1.0em;
+}
+
+.portfolio li:hover div {
+    height:60px;
+}
+
+.portfolio canvas {
+    opacity:1; 
+    position:absolute; 
+    top:10px; 
+    left:10px; 
+    -webkit-transition:opacity 1s .2s;
+    -moz-transition:opacity 1s .2s;
+    -o-transition:opacity 1s .2s;
+    -ms-transition:opacity 1s .2s;
+    transition:opacity 1s .2s;
+}
+
+.portfolio li:hover canvas {
+    opacity:0;
+}
+
+
+.portfolio2{
+    width:80%;
+    margin:0;
+    text-align: center;
+}
+
+
+.portfolio2 div {
+    display: inline-block; 
+    position:relative; 
+    width:30%; 
+    height:auto;
+    background:#fff; 
+    box-shadow:0 0 5px rgba(0,0,0,.35);
+}
+
+
+.portfolio2 img{
+    width:100%; 
+    height:auto;
+    display: inline;
+    margin:auto;
+}
+
+.portfolio2{
+    display: none;
+    width:100%;
+    margin:0;
+    text-align: center;
+}
+
+.portfolio2 div {
+  display: inline-block; 
+  position:relative; 
+  width:60%; 
+  height:auto;
+  margin:6px; 
+  padding:10px; 
+  background:#fff; 
+  box-shadow:0 0 5px rgba(0,0,0,.35);
+}
+
+
+.portfolio2 img{
+    width:100%; 
+    height:auto;
+    display: inline;
+    margin:auto;
+}
+
+
+/* ====================== CONTACT ==================== */
+
+
+.contact{
+    padding:0 5% 2% 5%;
+    height:auto;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact1 ul{
+    list-style: none;
+    margin:0 auto;
+    vertical-align: center;
+    text-align:center;
+    padding:0;
+    line-height:50px;
+    font-size:1.4rem; 
+}
+
+.contact1 ul li{
+    display: inline-block;       
+}
+
+.contact1 .icon-mail{
+    padding-right: 10px;
+}
+
+.contact1 p{
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+
+/* ========================= FOOTER ============================== */
+
+footer{
+    height:50px;
+    background-color:#000;
+}
+
+.icon-mail:hover{
+    color:#4d4d4d;
+}
+
+.icon-facebook-official:hover{
+    color:#3b5998;
+}
+
+footer p{
+    padding-left: 20px;
+    color:white;
+    line-height: 50px;
+    vertical-align: center;
+    margin:0;
+    font-size:15px;
+}
+
+footer a{
+    color: #fff;
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+    
+}
